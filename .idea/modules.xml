@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaniniMath.iml" filepath="$PROJECT_DIR$/.idea/modules/PaniniMath.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaniniMath_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PaniniMath_main.iml" group="PaniniMath" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaniniMath_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PaniniMath_test.iml" group="PaniniMath" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
 </project>

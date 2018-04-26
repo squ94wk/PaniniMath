@@ -8,9 +8,13 @@ public class PaniniPack extends HashSet<Integer> {
   public PaniniPack() {
     super(Config.STICKERS_PER_PACK * 5);
     while (this.size() < Config.STICKERS_PER_PACK) {
-      int totalStickers = Config.TOTAL_STICKERS;
-      final int newSticker = (rng.nextInt() % totalStickers + totalStickers) % totalStickers;
+      final int newSticker = randomSticker();
       this.add(newSticker);
     }
+  }
+
+  private static synchronized int randomSticker() {
+    int totalStickers = Config.TOTAL_STICKERS;
+    return (rng.nextInt() % totalStickers + totalStickers) % totalStickers;
   }
 }
